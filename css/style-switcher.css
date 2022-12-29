@@ -12,7 +12,7 @@
     transform: translateX(100%);
 }
 
-.style-switcher .open {
+.style-switcher.open {
     transform: translateX(-25px);
 }
 
@@ -36,7 +36,7 @@
 .style-switcher .s-icon i {
     line-height: 40px;
 }
-.style-switcher .style-switcher-toogler {
+.style-switcher .style-switcher-toggler {
     top:0;
 }
 .style-switcher .day-night {
@@ -60,7 +60,7 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    border: 1px solid red;
+    border: 1px solid none;
 }
 .style-switcher .color-1 {
     background: #ec1839;

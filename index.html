@@ -9,7 +9,8 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!--Style Switcher-->
     <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
     <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
@@ -25,17 +26,17 @@
         <!--Aside Start-->
         <div class="aside">
             <div class="logo">
-                <a href="#"><span>A</span>tlas</a>
+                <a href="#"><span>MÇ</span></a>
             </div>
             <div class="nav-toggler">
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
         <!--Aside End-->
@@ -43,7 +44,7 @@
         <!--Main Content Start-->
         <div class="main-content">
             <!--Home Section Start-->
-            <section class="home section">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -60,7 +61,7 @@
             </section>
             <!--Home Section End-->
             <!--About Section Start-->
-            <section class="about section">
+            <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -274,7 +275,7 @@
             </section>
             <!--About Section End-->
             <!--Services Section Start-->
-            <section class="service section">
+            <section class="service section" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -360,7 +361,7 @@
             <!--Services Section End-->
 
             <!--Portfolio Section Start-->
-            <section class="portfolio section">
+            <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -432,7 +433,7 @@
             </section>
             <!--Portfolio Section End-->
             <!--Contact Section Start-->
-            <section class="contact section">
+            <section class="contact section" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -455,7 +456,7 @@
                             <div class="icon"><i class="fa fa-map-marker-alt">
                                 </i></div>
                             <h4>Office</h4>
-                            <p>Islamabad</p>
+                            <p>None</p>
                         </div>
                         <!--Contact Info Item End-->
                         <!--Contact Info Item Start-->
@@ -527,7 +528,7 @@
     <!--Style Switcher Start-->
     <div class="style-switcher">
         <div class="style-switcher-toggler s-icon">
-            <i class="fas fa-cog fa-spin"> </i>
+            <i class="fas fa-cog fa-spin"></i>
         </div>
         <div class="day-night s-icon">
             <i class="fas fa-moon"></i>
@@ -543,8 +544,11 @@
     </div>
     <!--Style Switcher End->
     <!-- JS Files-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="/js/script.js"></script>
     <script src="/js/style-switcher.js"></script>
+
 </body>
 
 </html>
